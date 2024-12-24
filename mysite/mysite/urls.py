@@ -6,5 +6,4 @@ urlpatterns = [
     path('posts/', include('posts.urls')),
     path('tinymce/', include('tinymce.urls')),
     path('auth/', include('accounts.urls')),
-    path('comments/', include('comments.urls')),
 ]
